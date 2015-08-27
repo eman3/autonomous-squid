@@ -1,7 +1,7 @@
 var hookshot = require("hookshot");
 var childProcess = require('child_process'), server;
 
-server = childProcess.exec('node node_modules/crafyjs/app.js', function (error, stdout, stderr) {
+server = childProcess.exec('node node_modules/craftyjs/app.js', function (error, stdout, stderr) {
   if (error) {
     console.log(error.stack);
     console.log('Error code: '+error.code);
