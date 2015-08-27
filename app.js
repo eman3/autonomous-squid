@@ -15,4 +15,4 @@ server.on('exit', function (code) {
   console.log('Server process exited with exit code ' + code);
 });
 
-hookshot('refs/heads/master', 'pkill node node_modules/craftyjs/app.js ; npm install && node node_modules/craftyjs/app.js').listen(3000);
+hookshot('refs/heads/master', 'pkill "node node_modules/craftyjs/app.js" ; npm install && node node_modules/craftyjs/app.js').listen(3000);
