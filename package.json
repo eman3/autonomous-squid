@@ -1,0 +1,16 @@
+{
+  "name": "crafty-auto",
+  "version": "0.1.0",
+  "description": "A autoupdating craftyjs server for development",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "mhsjlw",
+  "license": "MIT",
+  "dependencies": {
+    "hookshot": "~0.1.0",
+    "craftyjs": "git://github.com/mhsjlw/craftyjs#master",
+    "longjohn": "~0.2.8"
+  }
+}
