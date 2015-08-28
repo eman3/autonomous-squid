@@ -10,13 +10,9 @@ Auto craftyjs
 An autoupdating implementation of craftyjs
 
 ## Building / Running
+To run the server
 
-To run an autoupdating craftyjs server,
-
-1. Fork craftyjs
-2. Add a githook it craftyjs fork to your-ip:3000
-3. Add your fork of craftyjs to the package.json
-4. Enjoy the autoupdating!
+    node app.js
 
 ## Thanks
 
