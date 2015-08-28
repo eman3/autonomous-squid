@@ -1,0 +1,39 @@
+
+[0m[0m
+[0m  nbt.Writer[0m
+[2K[0G  [32m  ✓[0m[90m is constructed with no arguments [0m
+[2K[0G  [32m  ✓[0m[90m writes 8-bit bytes [0m
+[2K[0G  [32m  ✓[0m[90m writes 16-bit shorts [0m
+[2K[0G  [32m  ✓[0m[90m writes 32-bit ints [0m
+[2K[0G  [32m  ✓[0m[90m writes 64-bit longs [0m
+[2K[0G  [32m  ✓[0m[90m writes 32-bit floats [0m
+[2K[0G  [32m  ✓[0m[90m writes 64-bit doubles [0m
+[2K[0G  [32m  ✓[0m[90m writes 8-bit byte arrays [0m
+[2K[0G  [32m  ✓[0m[90m writes 32-bit int arrays [0m
+[2K[0G  [32m  ✓[0m[90m writes strings [0m
+[2K[0G  [32m  ✓[0m[90m writes lists [0m
+[2K[0G  [32m  ✓[0m[90m writes compounds [0m
+
+[0m  nbt.Reader[0m
+[2K[0G  [32m  ✓[0m[90m is constructed with a buffer array [0m
+[2K[0G  [32m  ✓[0m[90m reads 8-bit bytes [0m
+[2K[0G  [32m  ✓[0m[90m reads 16-bit shorts [0m
+[2K[0G  [32m  ✓[0m[90m reads 32-bit ints [0m
+[2K[0G  [32m  ✓[0m[90m reads 64-bit longs [0m
+[2K[0G  [32m  ✓[0m[90m reads 32-bit floats [0m
+[2K[0G  [32m  ✓[0m[90m reads 64-bit doubles [0m
+[2K[0G  [32m  ✓[0m[90m reads 8-bit byte arrays [0m
+[2K[0G  [32m  ✓[0m[90m reads 32-bit int arrays [0m
+[2K[0G  [32m  ✓[0m[90m reads strings [0m
+[2K[0G  [32m  ✓[0m[90m reads lists [0m
+[2K[0G  [32m  ✓[0m[90m reads compounds [0m
+
+[0m  nbt.parse[0m
+[2K[0G  [32m  ✓[0m[90m parses a compressed NBT file [0m
+
+[0m  nbt.write[0m
+[2K[0G  [32m  ✓[0m[90m writes an uncompressed NBT file [0m
+
+
+[92m [0m[32m 26 passing[0m[90m (102ms)[0m
+

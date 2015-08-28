@@ -1,0 +1,15 @@
+{
+  "name": "hookshot",
+  "author": "Marco Aurelio <thecoreh@gmail.com>",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "~4.9.0", 
+    "commander": "~2.3.0",
+    "lockfile": "~1.0.0",
+    "body-parser": "~1.8.2"
+  },
+  "main": "lib",
+  "bin": {
+    "hookshot": "./bin/hookshot"
+  }
+}

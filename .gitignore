@@ -1,1 +1,9 @@
 node_modules
+server
+
+.cache
+.npm
+.bashrc_history
+.bashrc
+.profile
+.bash_logout
